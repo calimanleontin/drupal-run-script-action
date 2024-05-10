@@ -27,5 +27,5 @@ jobs:
         with:
           path: ${{ secrets.PROJECT_DIR }}/live
           server_name: myserver
-          script_path: /var/www/html/project/reset_users.php
+          script_path: etc/scripts/reset_users.php
 ```
