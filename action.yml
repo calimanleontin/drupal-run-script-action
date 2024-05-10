@@ -22,4 +22,4 @@ runs:
     - name: "Run drupal script using drush"
       shell: bash
       run: |
-        ssh ${{ inputs.server_name }} 'cd ${{ inputs.path }} && ${{ inputs.drush }} ${{ inputs.script_path }}'
+        ssh ${{ inputs.server_name }} 'cd ${{ inputs.path }} && ${{ inputs.drush }} scr ${{ inputs.script_path }}'
